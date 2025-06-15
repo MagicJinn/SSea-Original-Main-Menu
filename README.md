@@ -21,8 +21,8 @@ Edit `OriginalMainMenu.ini` in your Sunless Sea **install** folder to customize:
 To develop and build the plugin, there are a couple of prerequisites. Clone the repository:
 
 ```bash
-git clone https://github.com/MagicJinn/SSea-Original-Main-Menu.git
-cd SSea-Original-Main-Menu
+git clone https://github.com/MagicJinn/SSea-OriginalMainMenu.git
+cd SSea-OriginalMainMenu
 ```
 
 After this, you need to acquire a DLL OriginalMainMenu relies on. Create a `dependencies` folder, and find `Sunless.Game.dll` in your `SunlessSea\Sunless Sea_Data\Managed` folder. Copy it into the `dependencies` folder. After this, you should be able to compile the project with the following command:
